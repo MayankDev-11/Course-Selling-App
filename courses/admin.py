@@ -24,6 +24,9 @@ class CourseAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Course, CourseAdmin)
+admin.site.register(Video)
+
+
 # admin.site.register(Video)
 
 # Register your models here.
